@@ -1,0 +1,152 @@
+PImage img;
+
+void setup() {
+  size (800,400) ;
+  img = loadImage("tp1.jpg");
+}
+ 
+  void draw(){ 
+    background(255);
+    image (img, 0, 0, width/2, height) ; 
+    noFill();
+  
+  //cuerpo de la figura 1
+  fill(117,86,104);
+  ellipse(602,388,224,28);
+  noStroke();
+  fill(208,186,173);
+  rect(585,135,27,29);
+  fill(0);
+  ellipse(599,169,26,32);
+  fill(208,186,173);
+  ellipse(599,177,22,19);
+  ellipse(588,80,22,70);
+  ellipse(609,80,20,70);
+  ellipse(587,38,15,30);
+  ellipse(609,38,15,30);
+  rect(579,115,36,10);
+  triangle(586,11,581,30,593,26);
+  triangle(586,11,594,12,594,32);
+  triangle(603,32,612,25,599,13);
+  triangle(614,27,609,12,599,13);
+  triangle(568,188,571,166,582,164);
+  triangle(568,188,576,186,582,164);
+  rect(568,186,8,36);
+  triangle(617,187,612,164,623,168);
+  triangle(617,187,624,187,623,168);
+  rect(617,187,7,36);
+  fill(153,142,138);
+  //la siguiente instrucción es para generar formas uniendo puntos ubicados en las coordenadas escritas abajo.
+  beginShape();
+  vertex(595,8);
+  vertex(600,14);
+  vertex(610,13);
+  vertex(605,2);
+  vertex(595,1);
+  vertex(584,3);
+  vertex(584,13);
+  vertex(595,14);
+  vertex(595,8);
+  endShape();
+  fill(255,113,159);
+  rect(577,125,40,10);
+  rect(577,135,8,30);
+  rect(611,135,7,30);
+  triangle(584,164,572,166,577,135);
+  triangle(612,167,623,168,617,135);
+  fill(189,19,28);
+  triangle(575,90,578,115,600,84);
+  triangle(596,84,620,92,615,115);
+  triangle(578,115,615,115,598,84);
+  
+  //figura número 2
+  fill(153,142,138);
+  triangle(519,393,547,389,533,368);
+  ellipse(577,219,8,8);
+  triangle(579,222,573,227,567,221);
+  fill(255,113,159);
+  beginShape();
+  vertex(546,350);
+  vertex(542,370);
+  vertex(538,372);
+  vertex(545,385);
+  vertex(590,386);
+  vertex(597,382);
+  vertex(595,371);
+  vertex(591,371);
+  vertex(584,338);
+  vertex(546,350);
+  endShape();
+  fill(0);
+  ellipse(568,372,26,35);
+  fill(208,186,173);
+  ellipse(533,332,57,24);
+  fill(208,186,173);
+  ellipse(573,307,25,70);
+  ellipse(570,260,15,35);
+  ellipse(568,376,26,32);
+  ellipse(572,275,15,15);
+  triangle(565,248,562,225,576,250);
+  triangle(577,256,573,216,561,226);
+  triangle(529,378,504,335,540,376);
+  triangle(540,378,528,343,505,336);
+  triangle(597,383,602,371,594,371);
+  fill(176,241,201);
+  beginShape();
+  vertex(542,321);
+  vertex(541,345);
+  vertex(546,349);
+  vertex(584,339);
+  vertex(586,320);
+  vertex(560,311);
+  vertex(542,321);
+  endShape();
+
+  //figura número 3
+  fill(227,201,144);
+  beginShape();
+  vertex(613,346);
+  vertex(611,371);
+  vertex(603,377);
+  vertex(607,386);
+  vertex(669,384);
+  vertex(670,374);
+  vertex(659,372);
+  vertex(653,349);
+  vertex(613,346);
+  endShape();
+  fill(153,142,138);
+  triangle(648,391,677,395,656,374);
+  fill(0);
+  ellipse(635,372,26,35);
+  fill(208,186,173);
+  ellipse(635,376,26,32);
+  ellipse(622,303,25,70);
+  ellipse(622,257,15,35);
+  ellipse(662,334,57,24);
+  triangle(653,380,668,344,689,335);
+  triangle(691,334,665,382,651,378);
+  beginShape();
+  vertex(615,251);
+  vertex(617,219);
+  vertex(623,213);
+  vertex(631,216);
+  vertex(630,228);
+  vertex(626,235);
+  vertex(628,250);
+  vertex(615,251);
+  endShape();
+  ellipse(623,270,14,14);
+  fill(222,146,220);
+  beginShape();
+  vertex(634,312);
+  vertex(649,321);
+  vertex(647,333);
+  vertex(653,348);
+  vertex(647,352);
+  vertex(613,345);
+  vertex(609,320);
+  vertex(635,312);
+  endShape();
+  }
+  
